@@ -1,0 +1,308 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+
+.navbar{
+    height: 60px;
+    background-color: #f29f32;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav-logo{
+    height: 40px;
+    width: 100px;
+}
+
+.logo{
+    background-image: url("AFDEEL__1_-removebg-preview.png");
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+}
+
+.border{
+    border: 1.5px solid transparent;
+    border-radius: 4%;
+    padding: 4px;
+}
+
+.border:hover{
+    border: 1.5px solid rgb(9, 9, 9);
+}
+
+/** box2 **/
+
+.nav-address{
+    height: 45px;
+}
+.add-first{
+    color: #222f3d;
+    font-size: 0.80rem;
+    margin-left: 40px;
+
+}
+
+.add-second{
+    font-size: .95rem;
+    margin-left: 8px;
+}
+
+.add-icon{
+    display: flex; 
+    align-items: center;
+}
+
+.add-icon i{
+
+    font-size: 25px;
+}
+
+/**box3**/
+
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: pink;
+    width: 620px;
+    height: 40px;
+    border-radius: 4px;
+}
+
+.search-select{
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-radius: 4px 0px 0px 4px;
+    border: none;
+}
+
+.search-input{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+
+.search-icon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: #0f1111;
+    border-radius: 0px 4px 4px 0px;
+    color: #febd68;
+    border: none;
+
+}
+.search-icon:hover{
+    border: 1px solid white;
+    
+}
+
+.nav-search:hover{
+    border: 2px solid black;
+}
+
+/**box4**/
+
+span{
+    font-size: 0.7rem;
+}
+
+.Nav-second{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+/**box5**/
+
+
+.nav-cart{
+    display: flex;
+}
+
+i{
+    font-size: 35px;
+}
+
+/**Panel**/
+
+.border2{
+    border: 1.5px solid transparent;
+    padding: 4px;
+    border-radius: 4%;
+}
+
+.border2:hover{
+    border: 1.5px solid white;
+}
+
+.panel{
+    height: 30px;
+    background-color: #222f3d;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.panel-all i{
+    font-size: small;
+}
+
+.panel-option p {
+    display: inline;
+    margin: 15px;
+}
+
+.panel-option {
+    width: 70%;
+    font-size: 0.85rem;
+}
+
+.panel-deals {
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+/**hero section**/
+
+.hero-section{
+    background-image: url("rsz_1rsz_2afdeel_2.png");
+    background-size: cover;   
+    height: 390px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+
+}
+
+.hero-massege{
+    background-color: #222f3d;
+    color: white;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.90rem;
+    width: 95%;
+    margin-bottom: 5px;
+}
+
+.hero-massege a {
+    color: #007bff;
+    font-style: normal;
+}
+
+.shop-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #cd954d;
+}
+
+.box{
+    height: 310px;
+    width: 23%;
+    background-color: #c0d2ca;
+    padding: 10px 0px 5px;
+    margin-top: 15px;
+    color: rgb(0, 0, 0);
+    border-radius: 5%;
+    margin-bottom: 17px;
+    transition: 0.5s;
+
+}
+
+.box-img{
+    height: 240px;
+    background-size: cover;
+    margin-top: 0.4rem;
+    margin-bottom: 0.6rem;
+    border-radius: 2%;
+}
+
+.box:hover{
+    transform: scale(1.1);
+    z-index: 2;
+}
+
+.box-content{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.box-content p{
+    color: #007bff;
+}
+
+/*footer*/
+
+.footer1{
+    height: 200px;
+    width: 100%;
+    background-color: #222f3d;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.sec1{
+    height: 150px;
+    margin-top: 25px;
+
+}
+
+.sec1 h2{
+    margin-bottom: 25px;
+}
+
+.sec1 p{
+    margin: 6px;
+}
+
+.footer2{
+    height: 80px;
+    width: 100%;
+    background-color:#f29f32;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon2{
+    height: 40px;
+    width: 200px;
+    margin-top: 20px;
+    display: flex;
+}
+
+.icon2 i{
+    margin: 0px 10px;
+}
+
+.credit{
+    height: 15px;
+    width: 880px;
+    display: flex;
+    margin-top: 60px;
+    margin-bottom: 10px;
+    justify-content: center;
+    padding-right: 60px;
+}
+
+.logo1{
+    height: 70px;
+    width: 145px;
+    background-image: url(AFDEEL__1_-removebg-preview.png);
+    background-size: cover;
+}
+
